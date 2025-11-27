@@ -17,7 +17,7 @@ Ia_percent = st.sidebar.slider("Initial abstraction / Anfangsverlust Ia (%)", mi
 Ia_factor = Ia_percent / 100
 
 # Curve Numbers inkl. 100
-CNs = sorted([60, 70, 80, 90, 100])
+CNs = sorted([30, 40, 50, 60, 70, 80, 90, 100])
 P = np.linspace(0, 200, 500)
 
 def scs_q(P, CN, Ia_factor):
