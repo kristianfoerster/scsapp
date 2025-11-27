@@ -38,7 +38,7 @@ for CN in CNs:
         y=Q,
         mode='lines',
         name=f"CN={CN}",  # Name für hover
-        hovertemplate="P: %{x:.1f} mm<br>Q: %{y:.1f} mm<br>CN="+str(CN),
+        hovertemplate="P: %{x:.1f} mm<br>Peff: %{y:.1f} mm<br>CN="+str(CN),
         showlegend=False  # Legende ausblenden
     ))
     fig.add_annotation(
